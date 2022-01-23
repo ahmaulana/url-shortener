@@ -106,7 +106,7 @@ export default {
           });
           this.link = ""
           this.$refs.inputLink.focus()
-          return true
+          return this.isError = false;
         } else {
           this.message = "Please add valid url";
         }
