@@ -25,6 +25,9 @@ export default {
     CallToAction,
     Footer,
   },
+  mounted() {
+    document.title = "Penyingkat Link"
+  }
 };
 </script>
 
